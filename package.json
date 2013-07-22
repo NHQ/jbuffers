@@ -1,15 +1,13 @@
 {
-  "name": "buffers",
-  "description": "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
-  "version": "0.1.1",
+  "name": "jbuffers",
+  "description": "A fork of module 'buffers', by Substack. Works with TypedArrays. Treat a collection of Buffers/TypedArrays as a single contiguous partially mutable Buffer.",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "http://github.com/substack/node-buffers.git"
+    "url": "http://github.com/NHQ/jbuffers.git"
   },
   "author": {
-    "name": "James Halliday",
-    "email": "mail@substack.net",
-    "url": "http://substack.net"
+    "name": "James Halliday & Johnnyscript.us"
   },
   "main": "./index",
   "scripts": {
