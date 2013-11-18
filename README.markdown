@@ -1,13 +1,11 @@
-buffers
-=======
+#buffers
 
 Treat a collection of Buffers as a single contiguous partially mutable Buffer or Typed Array.  Works in the browser with browserify.
 
 Where possible, operations execute without creating a new Buffer and copying
 everything over.
 
-example
-=======
+##example
 
 with Typed Arrays (Int16Array, et al)
 ----------------------------------------------------
