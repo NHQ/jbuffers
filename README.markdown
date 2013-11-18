@@ -1,15 +1,10 @@
 buffers
 =======
 
-Treat a collection of Buffers as a single contiguous partially mutable Buffer or Typed Array.
+Treat a collection of Buffers as a single contiguous partially mutable Buffer or Typed Array.  Works in the browser with browserify.
 
 Where possible, operations execute without creating a new Buffer and copying
 everything over.
-
-This is a cleaner more Buffery rehash of
-[bufferlist](http://github.com/substack/node-bufferlist).
-
-[![build status](https://secure.travis-ci.org/substack/node-buffers.png)](http://travis-ci.org/substack/node-buffers)
 
 example
 =======
@@ -20,7 +15,7 @@ with Typed Arrays (Int16Array, et al)
 pass optional number specifying which type of Array:
 
 ```js
-    var Buffers = require('buffers');
+    var Buffers = require('jbuffers');
     var bufs = Buffers(6); // Float32Array
     bufs.push(new Float32Array([1,2,3]));
 ```
